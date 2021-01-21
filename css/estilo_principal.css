@@ -38,7 +38,7 @@ header{
 }
 /* Color del nombre */
 .logo h1 b{
-   color: red;
+   color: #fbaf32;
 }
 
 
@@ -72,7 +72,7 @@ header{
     content: '';
     width: 100%;
     height: 4px;
-    background: red;
+    background:#fbaf32;
     position: absolute;
     top: 0;
     left: 0;
@@ -81,18 +81,18 @@ header{
 /* Color de las letras del menu*/
 .menu nav ul li a{
     color: #777777;
-    font-size: 18px;
+    font-size: 22px;
     transition: color 300ms;
 }
 /* Efecto de cambiar color al pasar por encima  */
 .menu nav ul li a:hover{
-   color:red;
+   color:#fbaf32;
 }
 
 /* Clase para el color de letras */
 
 .menu .text-menu-selected{
-    color: red;
+    color: #fbaf32;
 }
 
 /* Logo marca */
@@ -119,7 +119,7 @@ header{
 }
 
 #icon-menu:hover{
-   color: rgb(248, 132, 132);
+   color: rgb(248, 202, 132);
    opacity: 0.8;
 }
 
@@ -210,7 +210,7 @@ article:before{
     position: absolute;
     top: 0;
     left: 0;
-    background: red;
+    background: #fbaf32;
 }
 
 /* Estilo de los titulos en el articulo */
@@ -264,7 +264,7 @@ article img{
     margin-left: 20px;
     padding: 10px 50px;
     font-size: 16px;
-    background: red;
+    background: #fbaf32;
     border: none;
     color: white;
     cursor: pointer;
@@ -285,7 +285,7 @@ article img{
 #button-up{
     width: 60px;
     height: 60px;
-    background:red;
+    background:#fbaf32;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,7 +304,7 @@ article img{
 #button-up:hover{
     transform: scale(1.1);
     border-color: rgba(0, 0, 0, 0.1);
-    background: rgb(247, 90, 90) ;
+    background: rgb(247, 161, 90) ;
 }
 
 /* iconos de redes sociales flotantes */
@@ -507,7 +507,7 @@ article img{
     }
 
     .move-container-all{
-        transform: translatex(300px);
+        transform: translatex(200px);
     }
 
     .menu{
@@ -524,7 +524,7 @@ article img{
     }
 
     .show-lateral-menu{
-        width: 300px;
+        width: 150px;
         transform: translateX(0px);
     }
 
@@ -561,7 +561,7 @@ article img{
         width: 20px;
         display: inline-block;
         margin-right: 10px;
-        color: red;
+        color: #fbaf32;
     }
 
     #icon-menu{

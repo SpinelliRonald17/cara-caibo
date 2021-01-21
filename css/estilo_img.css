@@ -35,7 +35,7 @@ header{
 }
 /* Color del nombre */
 .logo h1 b{
-   color: rgb(255, 136, 0);
+   color: #fbaf32;
 }
 
 
@@ -179,7 +179,7 @@ a {
 }
 
 .contenedor a:hover{
-    color: rgb(255, 136, 0);
+    color: #fbaf32;
 }
 
 .overlay #btn-cerrar-popup {
@@ -223,7 +223,7 @@ a {
     content: '';
     width: 100%;
     height: 4px;
-    background:rgb(255, 136, 0);
+    background:#fbaf32;
     position: absolute;
     top: 0;
     left: 0;
@@ -232,18 +232,18 @@ a {
 /* Color de las letras del menu*/
 .menu nav ul li a{
     color: #777777;
-    font-size: 18px;
+    font-size: 22px;
     transition: color 300ms;
 }
 /* Efecto de cambiar color al pasar por encima  */
 .menu nav ul li a:hover{
-   color:rgb(255, 136, 0);
+   color:#fbaf32;
 }
 
 /* Clase para el color de letras */
 
 .menu .text-menu-selected{
-    color: rgb(255, 136, 0);
+    color: #fbaf32;
 }
 
 /* Logo marca */
@@ -270,7 +270,7 @@ a {
 }
 
 #icon-menu:hover{
-   color: rgb(248, 132, 132);
+   color: rgb(248, 207, 132);
    opacity: 0.8;
 }
 
@@ -361,7 +361,7 @@ article:before{
     position: absolute;
     top: 0;
     left: 0;
-    background:rgb(255, 136, 0);
+    background:#fbaf32;
 }
 
 /* Estilo de los titulos en el articulo */
@@ -415,7 +415,7 @@ article img{
     margin-left: 20px;
     padding: 10px 50px;
     font-size: 16px;
-    background: rgb(255, 136, 0);
+    background: #fbaf32;
     border: none;
     color: white;
     cursor: pointer;
@@ -436,7 +436,7 @@ article img{
 #button-up{
     width: 60px;
     height: 60px;
-    background: rgb(255, 136, 0);
+    background:#fbaf32;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,7 +455,7 @@ article img{
 #button-up:hover{
     transform: scale(1.1);
     border-color: rgba(0, 0, 0, 0.1);
-    background: rgb(247, 90, 90) ;
+    background: rgb(247, 174, 90) ;
 }
 
 /* iconos de redes sociales flotantes */
@@ -675,7 +675,7 @@ article img{
     }
 
     .show-lateral-menu{
-        width: 300px;
+        width: 150px;
         transform: translateX(0px);
     }
 
@@ -712,7 +712,7 @@ article img{
         width: 20px;
         display: inline-block;
         margin-right: 10px;
-        color: red;
+        color: #fbaf32;
     }
 
     #icon-menu{
