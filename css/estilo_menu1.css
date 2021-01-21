@@ -430,11 +430,13 @@ ul {
        font-size: 20px;
        margin-left: 5px;
        padding: 20px;
+       display: flex;
+       text-decoration: none;
     }
 
     .submenu i{
         color: #777777;
-        font-size: 18px;
+        font-size: 20px;
         transition: color 300ms;
      }
     
