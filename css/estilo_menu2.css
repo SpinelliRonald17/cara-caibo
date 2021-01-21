@@ -431,5 +431,15 @@ ul {
        margin-left: 5px;
        padding: 20px;
     }
+
+    .submenu i{
+        color: #777777;
+        font-size: 18px;
+        transition: color 300ms;
+     }
+    
+     .submenu i:hover{
+        color:#fbaf32;
+     }
 }
 
