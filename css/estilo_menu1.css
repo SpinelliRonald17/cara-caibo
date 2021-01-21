@@ -115,13 +115,13 @@ ul {
  }
 
  .submenu i{
-    color: #777777;
+    color:#fbaf32;
     font-size: 22px;
     transition: color 300ms;
  }
 
  .submenu i:hover{
-    color:#fbaf32;
+    color:#777777
  }
 
 
@@ -160,7 +160,7 @@ ul {
 
 
 .contenido-hero h2 {
-    background: orange;
+    background: #fbaf32;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -438,14 +438,15 @@ ul {
     }
 
     .submenu i{
-        color: #777777;
+        color: #fbaf32;
         font-size: 20px;
         transition: color 300ms;
         
      }
     
      .submenu i:hover{
-        color:#fbaf32;
+        color:#777777;
+        
      }
 }
 

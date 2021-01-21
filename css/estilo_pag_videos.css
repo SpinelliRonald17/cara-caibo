@@ -67,7 +67,7 @@ header{
     content: '';
     width: 100%;
     height: 4px;
-    background: #fbaf32;
+    background:#fbaf32;
     position: absolute;
     top: 0;
     left: 0;
@@ -75,13 +75,13 @@ header{
 
 /* Color de las letras del menu*/
 .menu nav ul li a{
-    color: #777777;
+    color: #fbaf32;
     font-size: 22px;
     transition: color 300ms;
 }
 /* Efecto de cambiar color al pasar por encima  */
 .menu nav ul li a:hover{
-   color: #fbaf32;
+   color: #777777;
 }
 
 /* Clase para el color de letras */
