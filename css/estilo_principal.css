@@ -383,6 +383,10 @@ article img{
   margin-top: 20px;
 }
 
+.container-footer footer .redes-footer a{
+    text-decoration: none;
+}
+
 /* Estilo del logo en el footer pie de pagina redes diseño */
 .container-footer footer .redes-footer .icon-redes-footer{
   font-size: 20px;
