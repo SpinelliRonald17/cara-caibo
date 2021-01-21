@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada|Roboto');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    *font-family: 'Roboto', sans-serif;
+    font-family: 'Lemonada', cursive;
+}
+
+body{
+
+}
+
+.contenedor-menu{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.contenedor-lista{
+    width: 100%;
+    height: 100%;
+}
+
+.lista-uno,
+.lista-dos,
+.lista-tres{
+    width: 100%;
+    text-align: center;
+}
+
+.lista-uno h1,
+.lista-dos h1,
+.lista-tres h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+.lista-uno img,
+.lista-dos img,
+.lista-tres img{
+    width: 100px;
+    height: 80px;
+}
+
+.lista-uno p,
+.lista-dos p,
+.lista-tres p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.lista-uno hr,
+.lista-dos hr,
+.lista-tres hr{
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    border-style: none;
+    background: -webkit-linear-gradient(left, red, blue, #23cbff);
+    margin-top: 10px;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu Delicioso Restaurant</title>
+
+    <!-- link de iconos redes -->
+    <script src="https://kit.fontawesome.com/b10f1efc78.js" crossorigin="anonymous"></script>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/estilo_principal.css">
+    <link rel="stylesheet" href="css/estilos-menu.css">
+
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0 maximum-scale=1.0,minimum-scale=1.0">
+
+    <!-- Carrucel de img -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Alertas mensajes -->
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+    <!-- Header menu -->
+    <header>
+
+            <div class="header-content">
+
+                <div class="logo">
+                    <h1>Bien<b>venidos</b></h1>
+                </div>
+
+
+                <div class="menu" id="show-menu">
+
+                    <nav>
+                        <ul>
+                            <li><a href="#" id="cocinero" title="Informacion del Cocinero"><i id="cocinero" class="fas fa-user-tie"></i></a></li>
+                            <li><a href="menu-1.html"><i title="Hamburguesas" class="fas fa-hamburger"></i></a></li>
+                            <li><a href="menu-2.html"><i title="Pizzas" class="fas fa-pizza-slice"></i></a></li>
+                            <li><a href="imagenes.html"><i title="Imagenes" class="far fa-images"></i></a></li>
+                            <li><a href="videos.html"><i title="Videos" class="far fa-play-circle"></i></a></li>
+                            <li><a href="index.html"><i title="Actualizar pagina" class="fas fa-sync-alt"></i></a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+                
+            </div>
+
+            <div id="icon-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+    </header>
+
+    <!--container-redes-sociales-->
+        <div class="container-redes" id="redes">
+            <a href="https://api.whatsapp.com/send?phone=573223903945&text=¿Qué servicios ofrecen?" target="_blank">
+                <img src="img/icon/icon-whatsapp.png" title="Enviar mensaje de WhatsApp" alt=""> 
+            </a>
+            <a href="http://m.me/ronald.spinelli.17" target="_blank">
+              <img src="img/icon/icon-messenger.png" alt="" title="Enviar mensaje por Messenger">
+            </a>
+        </div>
+
+    <!-- Portada -->
+    <div class="container-all" id= "move-content">
+   
+
+        <div class="contenedor-menu">
+        
+            <div class="pagina-izquierda">
+                
+                <div class="delante lado">
+                    
+                    <img src="images/logo_magtimus4.jpg">
+                    <h1>Burguer Cara-Caibo</h1>
+                    <hr>
+                    <h3>Tus mejores Chefs</h3>
+                    <button class="btn-ver-menu">Ver Menu</button>
+                    <h4>Restaurant</h4>
+                    <p>¡ El maravilloso del paraíso de la calle..!</p>
+                    <p></p>
+                    <ul>
+                        <h5>Telefonos</h5>
+                        <label>322 000 000</label>
+                    </ul>
+                    <ul>
+                        <h5>Telefonos</h5>
+                        <label>322 000 000</label>
+                    </ul>
+                </div>
+                
+                <div class="atras lado">
+                    
+                    <div class="contenedor-lista">
+                        <div class="lista-uno">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato1.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                            <hr>
+                        </div>
+                        <div class="lista-dos">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato2.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                            <hr>
+                        </div>
+                        <div class="lista-tres">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato3.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="pagina-central">
+                
+                <div class="contenedor-lista">
+                        <div class="lista-uno">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato4.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                            <hr>
+                        </div>
+                        <div class="lista-dos">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato5.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                            <hr>
+                        </div>
+                        <div class="lista-tres">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato6.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                        </div>
+                    </div>
+                
+            </div>
+            
+            <div class="pagina-derecha">
+                
+                <div class="contenedor-lista lado-pagina-derecha">
+                        <div class="lista-uno">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato7.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                            <hr>
+                        </div>
+                        <div class="lista-dos">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato8.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                            <hr>
+                        </div>
+                        <div class="lista-tres">
+                            <h1>Hamburguesas</h1>
+                            <img src="images/plato9.png">
+                            <h4>Hamburguesa la guapa</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate atque, animi expedita.</p>
+                        </div>
+                    </div>
+                <div class="pagina-derecha-atras lado-pagina-derecha"></div>
+                <div class="btn-cerrar lado-pagina-derecha">X</div>
+            </div>
+            
+        </div>    
+        <script src="js/jquery.js"></script>
+        <script src="js/script.js"></script>
+    
+        
+       
+
+                <!-- btn subir -->
+                <div id="button-up" title="Subir">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+
+        <!-- Footer--pide de pagina -->
+            <div class="container-footer">
+                
+                <footer>
+                    <div class="logo-footer">
+                        <img src="img/logo.jpg" alt="">
+                    </div>
+
+                    <div class="redes-footer">
+                        <a href="#"><i title="Pagina Facebook" class="fab fa-facebook-f icon-redes-footer"></i></a>
+                        <a href="#"><i title="Chat Messenger" class="fab fa-facebook-messenger icon-redes-footer"></i></a>
+                        <a href="#"><i title="Pagina Instagram" class="fab fa-instagram icon-redes-footer"></i></a>
+                        <a href="#"><i title="Pagina Youtube" class="fab fa-youtube icon-redes-footer"></i></a>
+                    </div>
+
+                    <hr>
+
+                    <h4>Desarrollador Ronald Contreras</h4>
+
+                </footer>
+
+            </div>
+
+    </div>
+
+        <script src="js/script-btn-menu.js"></script>
+
+        <script> 
+            $("#cocinero").click(function(){
+                swal.fire({
+                    title: 'Ismael!',
+                    text: 'Artista de la cocina..!!',
+                    imageUrl: 'img/cocinero.jpg',
+                    imageWidth: 800,
+                    imageHeight: 400,
+                    imageAlt: 'Custom image',
+                    showConfirmButton: true,
+                    })
+                });
+            </script>
+
+</body>
+</html>
